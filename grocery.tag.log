@@ -1,0 +1,31 @@
+
+START - automation started - Sun Dec 12 2021 21:59:07 GMT+0800 (Malay Peninsula Standard Time)
+
+https://shopee.sg/supermarket - Shop Grocery and Household Items Online in Singapore | Shopee Supermarket
+type //*[@class="_3P5w8a"] as cabbage
+wait 0.1
+keyboard [enter]
+wait 0.1
+click (//*[@class="WsIMr7"])[1]//a
+wait 0.1
+read (//*[@class="Ybrg9j"]) to price1
+wait 0.1
+https://www.fairprice.com.sg/ - NTUC FairPrice | Your #1 Grocery Retailer
+type //*[@class="sc-hobbk2-1 eJNCcW"] as cabbage
+wait 0.1
+keyboard [enter]
+wait 0.1
+click (//*[@class="sc-33fjso-6 hUhLZO"])[1]//a
+wait 0.1
+read (//*[@class="sc-1bsd7ul-1 sc-13n2dsm-5 kxEbZl deQJPo"]) to price2
+wait 0.1
+https://www.google.com - Google
+keyboard [ctrl]v
+keyboard [enter]
+click (//*[@class="g"])[1]//a
+wait 0.1
+click  (//*[@class="btn btn-tinted btn--l _3Kiuzg _1D3GfE"])
+type username as grocerylover
+type password as Janani10
+click  (//*[@class="_1ruZ5a _3Nrkgj _3kANJY _1IRuK_ hh2rFL _3_offS"])
+wait 100

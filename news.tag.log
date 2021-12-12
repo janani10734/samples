@@ -1,0 +1,7 @@
+
+START - automation started - Sun Dec 12 2021 18:26:11 GMT+0800 (Malay Peninsula Standard Time)
+https://www.straitstimes.com/search?searchkey=elderly - The Straits Times - Breaking News, Lifestyle & Multimedia News
+
+wait 0.2
+click (//*[@id="resultdata"])[1]//a
+wait 150s
